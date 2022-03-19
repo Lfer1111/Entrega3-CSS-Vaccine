@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+    <nav class="navBar">
+        <a href="#" class="logo">Vaccination</a>
+        <ul class="navLinks">
+            <li class="navItem"><a href="#">Database</a></li>
+            <li class="navItem"><a href="#">Education</a></li>
+            <li class="navItem"><a href="#">News</a></li>
+            <li class="navItem"><a href="#">Regulation</a></li>
+            <li class="navItem"><a href="#">Hoax Buster</a></li>
+        </ul>
+    </nav>
+    <div class="containerFightVirus">
+        <div class="subconFightVirus">
+            <h1 style="font-size: 50px;">Fight Virus With Vaccines</h1>
+            <p style="font-size: 15px">Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected</p>
+            <div class="twoFacts"style="margin-top: 5%">
+                <span><i class="fa-solid fa-shield iconYellow"></i>Best Protection</span>
+                <span><i class="fa-solid fa-star iconYellow"></i>Selected Vaccines</span>    
+            </div>
+        </div>
+        <div class="subconNurseImage">
+            <img src="./images/imagen1.png" alt="imagen1 vacuna" class="person-image" style="height: 700px; width: 500px; margin-left: 30%;">
+        </div>
+    </div>  
+    <br><br><br>
+    
+    <form>
+        <fieldset class="schedulevaccine">
+            <legend><i class="fa-solid fa-clock iconBlueMain"></i>Schedule your vaccinations</legend>
+            <fieldset class="scheduledetails">
+                <div class="locationsBox"> 
+                    <label for="locations"><i class="fa-solid fa-location-dot iconBlueSecondary"></i>Location</label>
+                    <input list="locations" id="location" name="location">
+                    <datalist id="locations">
+                        <option value="Guadalajara">
+                        <option value="Aguascalientes">
+                        <option value="Monterrey">
+                        <option value="Ciudad de Mexico">
+                        <option value="Hermosillo">
+                        <option value="Merida">
+                        <option value="Chihuahua">
+                        <option value="Queretaro">
+                    </datalist>
+                </div>
+                <div class="appointmentBox">
+                    <label for="appointmentDate"><i class="fa-solid fa-calendar-days iconBlueSecondary"></i>Date</label>
+                    <input type="date" name="appointmentDate" id="appointmentDate">
+                </div>    
+                <div class="vaccineBox">
+                    <label for="vaccineType"><i class="fa-solid fa-pen iconBlueSecondary"></i>Vaccine Type</label>
+                    <select name="vaccineType" id="vaccineType">
+                        <option align="center" value="moderna">Moderna</option>
+                        <option value="astraZeneca">AstraZeneca</option>
+                        <option value="pfizer">Pfizer</option>
+                        <option value="sinovac">Sinovac</option>
+                    </select>
+                </div>
+                <div class="submitBox">
+                    <input type="submit" value="Submit" style="font-size: 25px; padding: 5%;">
+                </div>
+            </fieldset>
+        </fieldset>
+    </form>
+    <br><br><br><br>
+
+    <div align="center">
+        <img src="./images/imagen2.png" alt="imagen2 vacuna" style="margin-bottom: 5%;">
+    </div>
+
+    <div class="containerWhy">
+        <div class="subconWhy">
+            <h2 style="font-size: 45px">Why shuould I vaccine?</h2>
+            <p style="font-size: 18px">In order to avoid any doubts about getting the COVID-19 vaccine, identify the following 4 benefits of COVID-19 vaccination:</p>
+        </div>
+        <div class="subconempty">
+            <img src="./images/imagen3.png" alt="imagen3 vacuna" id="imagen3" style="height: 250px; width: 700px; margin-left: 20%;">
+        </div>
+    </div><br><br><br>
+    <div class="containerReasons" style="margin-top: 5%;">
+        <div class="subconReasons">
+            <span><i class="fa-solid fa-sliders iconBlueSecondary"></i></span>
+            <h3>Minimize the spread of viruses</h3>
+            <p>Vaccine has been proven effective to prevent someone from getting infected with Coronavirus</p>
+        </div>
+        <div class="subconReasons">
+            <span><i class="fa-solid fa-shield iconBlueSecondary"></i></span>
+            <h3>Forming antibodies</h3>
+            <p>COVID-19 vaccine proven to help shape antobody response for immune system</p>
+            
+        </div>
+        <div class="subconReasons">
+            <span><i class="fa-solid fa-user-group iconBlueSecondary"></i></span>
+            <h3>Protecting people nearby</h3>
+            <p>The benefits of COVID-19 vaccination are the vaccine that we get can also help protect people around us</p>
+        </div>
+        <div class="subconReasons">
+            <span><i class="fa-solid fa-chart-line iconBlueSecondary"></i></span>
+            <h3>Creating group immunity</h3>
+            <p>COVID-19 vaccinationis also benefitial for creating group immunity or herd immunity</p>
+        </div>
+    </div>
+    <div class="containerPreparations" style="padding-top: 5%; padding-bottom: 5%;">
+        <div class="subconImagePreparations">
+            <img src="./images/imagen4.png" alt="imagen4 vacuna" class="person-image" style="height: 820px; width: 550px;">
+        </div>
+        <div class="subconPreparations" style="margin-top: 5%;">
+            <h2>Preparations Before Vaccine</h2>
+            <p>The succes of vaccines is strongly influenced by the streght of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vaccine work:</p>
+            <div class="contPreparationsList">
+                <div class="subconPreparationsList">
+                    <span><i class="fa-solid fa-shield iconBlueSecondary"></i>Avoid Alcoholic beverages</span>
+                </div>
+                <div class="subconPreparationsList">
+                    <span><i class="fa-solid fa-square-xmark iconBlueSecondary"></i>Avoid Stress</span>
+                </div>
+                <div class="subconPreparationsList">
+                    <span><i class="fa-solid fa-utensils iconBlueSecondary"></i>Eat healthy food</span>
+                </div>
+                <div class="subconPreparationsList">
+                    <span><i class="fa-solid fa-moon iconBlueSecondary"></i>Get enough sleep</span>
+                </div>
+                <div class="subconPreparationsList">
+                    <span><i class="fa-solid fa-heart-pulse iconBlueSecondary"></i>Excercise or physical activity</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="containerEmergency">
+        <div class="subconEmergency">
+            <h2>Emergency Contact</h2>
+            <p>Contact one of the contacts below if you or your family feel unwell and have similar symptomps such as COVID-19, make sure you also take care of yourself before reporting to us:</p>
+            <div class="subconContactInfo">
+                <div class="subconContactType">
+                    <span><i class="fa-solid fa-phone iconBlueSecondary"></i></span>
+                    <h3>Call</h3>
+                    <br><p>021.123.145.14</p>
+                    <button>Call Now</button>
+                </div>
+                <div class="subconContactType">
+                    <span><i class="fa-solid fa-comment-dots iconBlueSecondary"></i></span>
+                    <h3>Chat</h3>
+                    <br><p>021.123.145.14</p>
+                    <button>Chat Now</button>
+                </div>
+                <div class="subconContactType">
+                    <span><i class="fa-solid fa-video iconBlueSecondary"></i></span>
+                    <h3>Video Call</h3>
+                    <br><p>021.123.145.14</p>
+                    <button>Video Call Now</button>
+                </div>
+                <div class="subconContactType">
+                    <span><i class="fa-solid fa-envelope iconBlueSecondary"></i></span>
+                    <h3>Message</h3>
+                    <br><p>021.123.145.14</p>
+                    <button>Message Now</button>
+                </div>
+            </div>
+        
+        </div>
+        <div class="subconImageContact">
+            <img src="./images/imagen5.png" alt="imagen5 vacuna" class="person-image" style="height: 820px; width: 600px; margin-left: 30%;">
+        </div>
+        
+    </div>
+            
+            
+            
+    <footer>
+        <div class="footerTopLeft">
+            <div class="footertext">
+                <a href="#home" class="logo">Vaccination</a>
+                <p>Our goal is to help the world free from the ongoing pandemic</p>
+            </div>
+            
+        </div>
+        <div class="footerTopRight">
+            <div class="subconFooter">
+                <span>About</span>
+                <ul class="footerLinks">
+                    <li><a href="#abooutus">About US</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="news">News & Blog</a></li>
+                </ul>
+            </div>
+            <div class="subconFooter">
+                <span>Company</span>
+                <ul class="footerLinks">
+                    <li><a href="#howwework">How We Work?</a></li>
+                    <li><a href="capital">Capital</a></li>
+                    <li><a href="secutity">Security</a></li>
+                </ul>
+            </div>
+            <div class="subconFooter">
+                <span>Support</span>
+                <ul class="footerLinks">
+                    <li><a href="#faqs">FAQs</a></li>
+                    <li><a href="supportcenter">Support Center</a></li>
+                    <li><a href="contact">Contact US</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerBottomLeft">
+            <p>@2021 Vaccination. All right reserved</p>
+        </div>
+        <div class="footerBottomRight">
+            <div class="footertc">
+                <a href="t&c">Terms & Agreements</a>
+                <a href="#privacypolicy">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>    
+</html>
